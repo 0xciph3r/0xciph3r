@@ -1,44 +1,33 @@
-# 0xciph3r
+# Hanzo Hasashi
 
-## Bitcoin Infrastructure & Privacy Engineer
+**Bitcoin custody and infrastructure security.**
 
----
-
-Building and securing Bitcoin infrastructure — nodes, key management, Lightning channels, and privacy-preserving protocols.
-
-### What I build
-
-**Bitcoin & Lightning**
-- Hardware enclave deployments for Bitcoin custody
-- LND hardening — watchtowers, channel backup automation, macaroon ACLs
-- Multisig coordination, PSBT workflows, key ceremony design
-- Stratum V2 protocol benchmarking and tooling
-
-**Privacy & Networking**
-- Decentralized VPN protocols with blind signature privacy
-- WireGuard transport layers with Nostr-based discovery
-- Chaumian ecash token systems for unlinkable access
-
-**Infrastructure & Operations**
-- Production Kubernetes clusters — high availability
-- Full observability stacks
-- Infrastructure as Code: Terraform, Helm, ArgoCD
-
-### Featured projects
-
-| Project | What it does |
-|---------|-------------|
-| [`ARFL`](https://github.com/Radi-Labs/ARFL) | Decentralized VPN protocol powered by Bitcoin — blind signatures, WireGuard transport, Lightning payments |
-| [`lnd-deep-dive`](https://0xciph3r.github.io/lnd-deep-dive/) | Security audit of the LND codebase — maps *Mastering the Lightning Network* to source code |
-| [`terraform-aws-bitcoin-enclave-node`](https://github.com/0xciph3r/terraform-aws-bitcoin-enclave-node) | Terraform modules for hardened Bitcoin nodes on AWS Nitro Enclaves |
-| [`Heimdall`](https://github.com/0xciph3r/Heimdall) | Real-time monitoring for Bitcoin & Lightning node operators |
-| [`psbt-coordinator`](https://github.com/0xciph3r/psbt-coordinator) | 2-of-3 multisig PSBT coordinator in Rust |
-| [`zwis`](https://github.com/0xciph3r/zwis) | In-memory cache with LRU, LFU, and ARC eviction policies |
-
-### Stack
-
-`Go` · `Rust` · `Python` · `Terraform` · `Kubernetes` · `Docker` · `Bitcoin Core` · `LND`
+I design and build systems that protect private keys at scale — threshold signatures, HSM integration, policy enforcement, and secure node deployments.
 
 ---
 
-dev@radi-labs.org
+### Selected Work
+
+[**btc-custody**](https://github.com/0xciph3r/btc-custody)  
+FROST threshold signing for Taproot. HSM-backed key shares, configurable policy engine, STRIDE-validated threat model. Production architecture.
+
+[**lnaudit**](https://github.com/0xciph3r/lnaudit)  
+Security auditing framework for Lightning Network infrastructure. 30+ automated checks, CVE correlation, remediation guidance.
+
+[**terraform-aws-bitcoin-enclave-node**](https://github.com/0xciph3r/terraform-aws-bitcoin-enclave-node)  
+Hardened Bitcoin Core on AWS Nitro Enclaves. Attestation, sealed storage, OIDC-integrated CI/CD.
+
+[**ARFL**](https://github.com/Radi-Labs/ARFL)  
+Decentralized VPN protocol. Blind signatures for unlinkable access, WireGuard transport, Lightning settlement.
+
+---
+
+### Background
+
+7 years in platform engineering. Now focused on Bitcoin infrastructure security — key management, custody architecture, and protocol-level hardening.
+
+Currently exploring TEEs, threshold cryptography, and Lightning channel security.
+
+---
+
+`Go` · `Rust` · `Terraform` · `Kubernetes` · `Bitcoin Core` · `LND`
