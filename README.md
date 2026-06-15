@@ -1,53 +1,44 @@
-# Chinonso Amadi
+# 0xciph3r
 
-## Bitcoin Infrastructure Security Engineer
+## Bitcoin Infrastructure & Privacy Engineer
 
 ---
 
-I secure the infrastructure that moves money on-chain — nodes, key management systems, Lightning channels, and the production clusters beneath them. 7+ years building and hardening Bitcoin and Lightning infrastructure at scale.
+Building and securing Bitcoin infrastructure — nodes, key management, Lightning channels, and privacy-preserving protocols.
 
 ### What I build
 
-**Bitcoin & Lightning Security**
-- Hardware enclave deployments for Bitcoin custody (AWS Nitro)
+**Bitcoin & Lightning**
+- Hardware enclave deployments for Bitcoin custody
 - LND hardening — watchtowers, channel backup automation, macaroon ACLs
 - Multisig coordination, PSBT workflows, key ceremony design
 - Stratum V2 protocol benchmarking and tooling
 
-**Node Infrastructure & Operations**
-- Production Kubernetes clusters (EKS, bare-metal) — 99.99%+ uptime
-- Full observability: Prometheus, Grafana, Loki, Tempo, Thanos
-- Automated failover, disaster recovery, and incident response
-- Infrastructure as Code: Terraform, Helm, ArgoCD
+**Privacy & Networking**
+- Decentralized VPN protocols with blind signature privacy
+- WireGuard transport layers with Nostr-based discovery
+- Chaumian ecash token systems for unlinkable access
 
-**Key Management & Custody**
-- HSM integration for transaction signing (CloudHSM, YubiHSM)
-- MPC and threshold signature architectures (FROST, TSS)
-- Hot/warm/cold wallet infrastructure with policy engines
-- Compliance-ready platforms: PCI-DSS, SOC2, ISO 27001
+**Infrastructure & Operations**
+- Production Kubernetes clusters — high availability
+- Full observability stacks
+- Infrastructure as Code: Terraform, Helm, ArgoCD
 
 ### Featured projects
 
 | Project | What it does |
 |---------|-------------|
-| [`lnd-deep-dive`](https://nonsoamadi10.github.io/lnd-deep-dive/) | 14-chapter security audit of the LND codebase — maps *Mastering the Lightning Network* to source code with 18 security findings |
-| [`terraform-aws-bitcoin-enclave-node`](https://github.com/NonsoAmadi10/terraform-aws-bitcoin-enclave-node) | Terraform modules for hardened Bitcoin nodes on AWS Nitro Enclaves |
-| [`Heimdall`](https://github.com/NonsoAmadi10/Heimdall) | Real-time monitoring for Bitcoin & Lightning node operators |
-| [`psbt-coordinator`](https://github.com/NonsoAmadi10/psbt-coordinator) | 2-of-3 multisig PSBT coordinator in Rust |
-| [`mempool-fee-analysis`](https://github.com/NonsoAmadi10/mempool-fee-analysis) | Mempool-based fee estimation API and CLI |
-| [`zwis`](https://github.com/NonsoAmadi10/zwis) | In-memory cache with LRU, LFU, and ARC eviction policies |
-| [`abobi`](https://github.com/NonsoAmadi10/abobi) | CLI that converts env files into Kubernetes base64-encoded secrets |
+| [`ARFL`](https://github.com/Radi-Labs/ARFL) | Decentralized VPN protocol powered by Bitcoin — blind signatures, WireGuard transport, Lightning payments |
+| [`lnd-deep-dive`](https://0xciph3r.github.io/lnd-deep-dive/) | Security audit of the LND codebase — maps *Mastering the Lightning Network* to source code |
+| [`terraform-aws-bitcoin-enclave-node`](https://github.com/0xciph3r/terraform-aws-bitcoin-enclave-node) | Terraform modules for hardened Bitcoin nodes on AWS Nitro Enclaves |
+| [`Heimdall`](https://github.com/0xciph3r/Heimdall) | Real-time monitoring for Bitcoin & Lightning node operators |
+| [`psbt-coordinator`](https://github.com/0xciph3r/psbt-coordinator) | 2-of-3 multisig PSBT coordinator in Rust |
+| [`zwis`](https://github.com/0xciph3r/zwis) | In-memory cache with LRU, LFU, and ARC eviction policies |
 
 ### Stack
 
-`Go` · `Rust` · `Python` · `Terraform` · `Kubernetes` · `AWS` · `Docker` · `Helm` · `ArgoCD` · `Prometheus` · `Bitcoin Core` · `LND`
-
-### Certifications
-
-- CKA — Certified Kubernetes Administrator
-- AWS Solutions Architect Associate
-- AWS Data Engineer Associate
+`Go` · `Rust` · `Python` · `Terraform` · `Kubernetes` · `Docker` · `Bitcoin Core` · `LND`
 
 ---
 
-<a href="https://www.linkedin.com/in/nonso-amadi/">LinkedIn</a> · <a href="https://twitter.com/jackhoudini__">Twitter</a> · <a href="https://medium.com/@jackhoudini">Blog</a> · nonsoamadi@aol.com
+dev@radi-labs.org
